@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<%- include('./partials/head.ejs') %>
 <body>
+    <%- include('./partials/header.ejs') %>
+    <%- include('./partials/nav.ejs') %>
 
     <!-- Main Content -->
     <main class="main-content">
@@ -63,9 +66,6 @@
         </div>
     </main>
 
-    <!-- Footer -->
-    <footer class="site-footer">
-        <p>&copy; 2023, CSE 340 App</p>
-    </footer>
+    <%- include('./partials/footer.ejs') %>
 </body>
 </html>
