@@ -99,7 +99,8 @@ body {
   text-align: center;
   font-size: 1.8rem;
   margin-bottom: 2rem;
-  color: #2c3e50;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 /* Featured Vehicle Section */
