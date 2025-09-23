@@ -1,80 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSE Motors</title>
-  <link rel="stylesheet" href="/css/styles.css" media="screen">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE Motors - Home</title>
+    <link rel="stylesheet" href="/css/styles.css" media="screen">
 </head>
 <body>
-  <header>
-    <div class="logo">CSE Motors</div>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Custom</a></li>
-        <li><a href="#">Sedan</a></li>
-        <li><a href="#">SUV</a></li>
-        <li><a href="#">Truck</a></li>
-      </ul>
-    </nav>
-    <div class="account"><a href="#">My Account</a></div>
-  </header>
-
-  <main>
-    <h1>Welcome to CSE Motors!</h1>
-
-    <section class="hero">
-      <div class="hero-text">
-        <h2>DMC DeLorean</h2>
-        <ul>
-          <li>3 Cup holders</li>
-          <li>Superman doors</li>
-          <li>Fuzzy dice!</li>
-        </ul>
-        <a class="btn" href="#">Own Today</a>
-      </div>
-      <div class="hero-image">
-        <img src="/images/delorean.jpg" alt="DMC Delorean">
-      </div>
-    </section>
-
-    <section class="reviews">
-      <h2>DMC DeLorean Reviews</h2>
-      <ul>
-        <li>"So fast it’s almost like traveling in time." (4/5)</li>
-        <li>"Coolest ride on the road." (4/5)</li>
-        <li>"I’m feeling McFly!" (5/5)</li>
-        <li>"The most futuristic ride of our day." (4.5/5)</li>
-        <li>"80’s livin and I love it!" (5/5)</li>
-      </ul>
-    </section>
-
-    <section class="upgrades">
-      <h2>Delorean Upgrades</h2>
-      <div class="grid">
-        <div>
-          <img src="/images/flux-cap.png" alt="Flux Capacitor">
-          <a href="#">Flux Capacitor</a>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo-section">
+                <h1>CSE Motors</h1>
+            </div>
+            <div class="account-section">
+                <a href="#" class="account-link">My Account</a>
+            </div>
         </div>
-        <div>
-          <img src="/images/flame.jpg" alt="Flame Decals">
-          <a href="#">Flame Decals</a>
-        </div>
-        <div>
-          <img src="/images/bumper_sticker.jpg" alt="Bumper Stickers">
-          <a href="#">Bumper Stickers</a>
-        </div>
-        <div>
-          <img src="/images/hub-cap.jpg" alt="Hub Caps">
-          <a href="#">Hub Caps</a>
-        </div>
-      </div>
-    </section>
-  </main>
+        
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li><a href="/" class="nav-link active">Home</a></li>
+                <li><a href="#" class="nav-link">Custom</a></li>
+                <li><a href="#" class="nav-link">Sedan</a></li>
+                <li><a href="#" class="nav-link">SUV</a></li>
+                <li><a href="#" class="nav-link">Truck</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <footer>
-    <p>© 2023, CSE 340 App</p>
-  </footer>
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <h2 class="page-title">Welcome to CSE Motors!</h2>
+            
+            <!-- Featured Vehicle Section -->
+            <section class="featured-vehicle">
+                <div class="vehicle-info">
+                    <h3 class="vehicle-name">DMC Delorean</h3>
+                    <ul class="vehicle-features">
+                        <li>3 Cup holders</li>
+                        <li>Superman doors</li>
+                        <li>Fuzzy dice!</li>
+                    </ul>
+                    <button class="cta-button">Own Today</button>
+                </div>
+                <div class="vehicle-image">
+                    <img src="/images/delorean.jpg" alt="DMC Delorean - Silver time machine car with gull-wing doors">
+                </div>
+            </section>
+
+            <!-- Content Grid -->
+            <div class="content-grid">
+                <!-- Reviews Section -->
+                <section class="reviews-section">
+                    <h3 class="section-title">DMC Delorean Reviews</h3>
+                    <ul class="reviews-list">
+                        <li>"So fast it's almost like traveling in time." (4/5)</li>
+                        <li>"Coolest ride on the road." (4/5)</li>
+                        <li>"I'm feeling McFly!" (5/5)</li>
+                        <li>"The most futuristic ride of our day." (4.5/5)</li>
+                        <li>"80's livin and I love it!" (5/5)</li>
+                    </ul>
+                </section>
+
+                <!-- Upgrades Section -->
+                <section class="upgrades-section">
+                    <h3 class="section-title">Delorean Upgrades</h3>
+                    <div class="upgrades-grid">
+                        <div class="upgrade-item">
+                            <img src="/images/flux-capacitor.jpg" alt="Flux Capacitor">
+                            <p class="upgrade-name">Flux Capacitor</p>
+                        </div>
+                        <div class="upgrade-item">
+                            <img src="/images/flame-decal.jpg" alt="Flame Decals">
+                            <p class="upgrade-name">Flame Decals</p>
+                        </div>
+                        <div class="upgrade-item">
+                            <img src="/images/bumper-sticker.jpg" alt="Bumper Stickers">
+                            <p class="upgrade-name">Bumper Stickers</p>
+                        </div>
+                        <div class="upgrade-item">
+                            <img src="/images/hub-cap.jpg" alt="Hub Caps">
+                            <p class="upgrade-name">Hub Caps</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2023, CSE 340 App</p>
+    </footer>
 </body>
 </html>
