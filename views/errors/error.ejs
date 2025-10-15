@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head') %>
+<body>
+<%- include('../partials/header') %>
+<%- include('../partials/navigation') %>
+
+<main class="main-content">
+    <div class="container">
+        <div class="error-container">
+            <h1 class="error-title">Oops! Something went wrong</h1>
+            <p class="error-message"><%= message %></p>
+            <p class="error-description">We're sorry for the inconvenience. Please try again later or contact support if the problem persists.</p>
+            <a href="/" class="error-home-link">Return to Home</a>
+        </div>
+    </div>
+</main>
+
+<%- include('../partials/footer') %>
+</body>
+</html>

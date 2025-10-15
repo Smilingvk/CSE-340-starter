@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head') %>
+<body>
+<%- include('../partials/header') %>
+<%- include('../partials/navigation') %>
+
+<main class="main-content">
+    <div class="container">
+        <h1 class="page-title"><%= title %></h1>
+        
+        <%- detailView %>
+        
+    </div>
+</main>
+
+<%- include('../partials/footer') %>
+</body>
+</html>
